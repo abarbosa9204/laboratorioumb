@@ -17,7 +17,7 @@
   class="light-style layout-menu-fixed"
   dir="ltr"
   data-theme="theme-default"
-  data-assets-path="<?php echo Yii::app()->baseUrl; ?>/dist/assets/"
+  data-assets-path="../assets/"
   data-template="vertical-menu-template-free"
 >
   <head>
@@ -27,12 +27,12 @@
       content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0"
     />
 
-    <title>Fluid - Layouts | Sneat - Bootstrap 5 HTML Admin Template - Pro</title>
+    <title>List groups - UI elements | Sneat - Bootstrap 5 HTML Admin Template - Pro</title>
 
     <meta name="description" content="" />
 
     <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="<?php echo Yii::app()->baseUrl; ?>/dist/assets/img/favicon/favicon.ico" />
+    <link rel="icon" type="image/x-icon" href="../assets/img/favicon/favicon.ico" />
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -43,24 +43,24 @@
     />
 
     <!-- Icons. Uncomment required icon fonts -->
-    <link rel="stylesheet" href="<?php echo Yii::app()->baseUrl; ?>/dist/assets/vendor/fonts/boxicons.css" />
+    <link rel="stylesheet" href="../assets/vendor/fonts/boxicons.css" />
 
     <!-- Core CSS -->
-    <link rel="stylesheet" href="<?php echo Yii::app()->baseUrl; ?>/dist/assets/vendor/css/core.css" class="template-customizer-core-css" />
-    <link rel="stylesheet" href="<?php echo Yii::app()->baseUrl; ?>/dist/assets/vendor/css/theme-default.css" class="template-customizer-theme-css" />
-    <link rel="stylesheet" href="<?php echo Yii::app()->baseUrl; ?>/dist/assets/css/demo.css" />
+    <link rel="stylesheet" href="../assets/vendor/css/core.css" class="template-customizer-core-css" />
+    <link rel="stylesheet" href="../assets/vendor/css/theme-default.css" class="template-customizer-theme-css" />
+    <link rel="stylesheet" href="../assets/css/demo.css" />
 
     <!-- Vendors CSS -->
-    <link rel="stylesheet" href="<?php echo Yii::app()->baseUrl; ?>/dist/assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css" />
+    <link rel="stylesheet" href="../assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css" />
 
     <!-- Page CSS -->
 
     <!-- Helpers -->
-    <script src="<?php echo Yii::app()->baseUrl; ?>/dist/assets/vendor/js/helpers.js"></script>
+    <script src="../assets/vendor/js/helpers.js"></script>
 
     <!--! Template customizer & Theme config files MUST be included after core stylesheets and helpers.js in the <head> section -->
     <!--? Config:  Mandatory theme config file contain global vars & default theme options, Set your preferred theme option in this file.  -->
-    <script src="<?php echo Yii::app()->baseUrl; ?>/dist/assets/js/config.js"></script>
+    <script src="../assets/js/config.js"></script>
   </head>
 
   <body>
@@ -147,7 +147,7 @@
             </li>
 
             <!-- Layouts -->
-            <li class="menu-item active open">
+            <li class="menu-item">
               <a href="javascript:void(0);" class="menu-link menu-toggle">
                 <i class="menu-icon tf-icons bx bx-layout"></i>
                 <div data-i18n="Layouts">Layouts</div>
@@ -169,7 +169,7 @@
                     <div data-i18n="Container">Container</div>
                   </a>
                 </li>
-                <li class="menu-item active">
+                <li class="menu-item">
                   <a href="layouts-fluid.html" class="menu-link">
                     <div data-i18n="Fluid">Fluid</div>
                   </a>
@@ -259,7 +259,7 @@
               </a>
             </li>
             <!-- User interface -->
-            <li class="menu-item">
+            <li class="menu-item active open">
               <a href="javascript:void(0)" class="menu-link menu-toggle">
                 <i class="menu-icon tf-icons bx bx-box"></i>
                 <div data-i18n="User interface">User interface</div>
@@ -305,7 +305,7 @@
                     <div data-i18n="Footer">Footer</div>
                   </a>
                 </li>
-                <li class="menu-item">
+                <li class="menu-item active">
                   <a href="ui-list-groups.html" class="menu-link">
                     <div data-i18n="List Groups">List groups</div>
                   </a>
@@ -467,7 +467,7 @@
           <!-- Navbar -->
 
           <nav
-            class="layout-navbar container-fluid navbar navbar-expand-xl navbar-detached align-items-center bg-navbar-theme"
+            class="layout-navbar container-xxl navbar navbar-expand-xl navbar-detached align-items-center bg-navbar-theme"
             id="layout-navbar"
           >
             <div class="layout-menu-toggle navbar-nav align-items-xl-center me-3 me-xl-0 d-xl-none">
@@ -509,7 +509,7 @@
                 <li class="nav-item navbar-dropdown dropdown-user dropdown">
                   <a class="nav-link dropdown-toggle hide-arrow" href="javascript:void(0);" data-bs-toggle="dropdown">
                     <div class="avatar avatar-online">
-                      <img src="<?php echo Yii::app()->baseUrl; ?>/dist/assets/img/avatars/1.png" alt class="w-px-40 h-auto rounded-circle" />
+                      <img src="../assets/img/avatars/1.png" alt class="w-px-40 h-auto rounded-circle" />
                     </div>
                   </a>
                   <ul class="dropdown-menu dropdown-menu-end">
@@ -518,7 +518,7 @@
                         <div class="d-flex">
                           <div class="flex-shrink-0 me-3">
                             <div class="avatar avatar-online">
-                              <img src="<?php echo Yii::app()->baseUrl; ?>/dist/assets/img/avatars/1.png" alt class="w-px-40 h-auto rounded-circle" />
+                              <img src="../assets/img/avatars/1.png" alt class="w-px-40 h-auto rounded-circle" />
                             </div>
                           </div>
                           <div class="flex-grow-1">
@@ -574,24 +574,400 @@
           <div class="content-wrapper">
             <!-- Content -->
 
-            <div class="container-fluid flex-grow-1 container-p-y">
-              <!-- Layout Demo -->
-              <div class="layout-demo-wrapper">
-                <div class="layout-demo-placeholder">
-				<?php echo $content; ?>
+            <div class="container-xxl flex-grow-1 container-p-y">
+              <h4 class="fw-bold py-3 mb-4"><span class="text-muted fw-light">UI elements /</span> List groups</h4>
+
+              <div class="card mb-4">
+                <h5 class="card-header">List groups</h5>
+                <div class="card-body">
+                  <div class="row">
+                    <!-- Basic List group -->
+                    <div class="col-lg-6 mb-4 mb-xl-0">
+                      <small class="text-light fw-semibold">Basic</small>
+                      <div class="demo-inline-spacing mt-3">
+                        <div class="list-group">
+                          <a href="javascript:void(0);" class="list-group-item list-group-item-action active"
+                            >Bear claw cake biscuit</a
+                          >
+                          <a href="javascript:void(0);" class="list-group-item list-group-item-action"
+                            >Soufflé pastry pie ice</a
+                          >
+                          <a href="javascript:void(0);" class="list-group-item list-group-item-action disabled"
+                            >Tart tiramisu cake</a
+                          >
+                          <a href="javascript:void(0);" class="list-group-item list-group-item-action"
+                            >Bonbon toffee muffin</a
+                          >
+                          <a href="javascript:void(0);" class="list-group-item list-group-item-action"
+                            >Dragée tootsie roll</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                    <!--/ Basic List group -->
+                    <!-- List group with Badges & Pills -->
+                    <div class="col-lg-6">
+                      <small class="text-light fw-semibold">With Bagdes & Pills</small>
+                      <div class="demo-inline-spacing mt-3">
+                        <ul class="list-group">
+                          <li class="list-group-item d-flex justify-content-between align-items-center">
+                            Soufflé pastry pie ice
+                            <span class="badge bg-primary">5</span>
+                          </li>
+                          <li class="list-group-item disabled">Bear claw cake biscuit</li>
+                          <li class="list-group-item d-flex justify-content-between align-items-center">
+                            Tart tiramisu cake
+                            <span class="badge bg-success">2</span>
+                          </li>
+                          <li class="list-group-item d-flex justify-content-between align-items-center">
+                            Bonbon toffee muffin
+                            <span class="badge bg-danger rounded-pill">3</span>
+                          </li>
+                          <li class="list-group-item">Dragée tootsie roll</li>
+                        </ul>
+                      </div>
+                    </div>
+                    <!--/ List group with Badges & Pills -->
+                  </div>
                 </div>
-                <div class="layout-demo-info">
-                  <h4>Layout fluid</h4>
-                  <p>Fluid layout sets a <code>100% width</code> at each responsive breakpoint.</p>
+                <hr class="m-0" />
+                <div class="card-body">
+                  <div class="row">
+                    <!-- List group Flush (Without main border) -->
+                    <div class="col-lg-6 mb-4 mb-xl-0">
+                      <small class="text-light fw-semibold">Flush</small>
+                      <div class="demo-inline-spacing mt-3">
+                        <div class="list-group list-group-flush">
+                          <a href="javascript:void(0);" class="list-group-item list-group-item-action"
+                            >Bear claw cake biscuit</a
+                          >
+                          <a href="javascript:void(0);" class="list-group-item list-group-item-action"
+                            >Soufflé pastry pie ice</a
+                          >
+                          <a href="javascript:void(0);" class="list-group-item list-group-item-action"
+                            >Tart tiramisu cake</a
+                          >
+                          <a href="javascript:void(0);" class="list-group-item list-group-item-action"
+                            >Bonbon toffee muffin</a
+                          >
+                          <a href="javascript:void(0);" class="list-group-item list-group-item-action"
+                            >Dragée tootsie roll</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                    <!--/ List group Flush (Without main border) -->
+                    <!-- List group Icons -->
+                    <div class="col-lg-6">
+                      <small class="text-light fw-semibold">With Icons</small>
+                      <div class="demo-inline-spacing mt-3">
+                        <ul class="list-group">
+                          <li class="list-group-item d-flex align-items-center">
+                            <i class="bx bx-tv me-2"></i>
+                            Soufflé pastry pie ice
+                          </li>
+                          <li class="list-group-item d-flex align-items-center">
+                            <i class="bx bx-bell me-2"></i>
+                            Bear claw cake biscuit
+                          </li>
+                          <li class="list-group-item d-flex align-items-center">
+                            <i class="bx bx-support me-2"></i>
+                            Tart tiramisu cake
+                          </li>
+                          <li class="list-group-item d-flex align-items-center">
+                            <i class="bx bx-purchase-tag-alt me-2"></i>
+                            Bonbon toffee muffin
+                          </li>
+                          <li class="list-group-item d-flex align-items-center">
+                            <i class="bx bx-closet me-2"></i>
+                            Dragée tootsie roll
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <!--/ List group Icons -->
+                  </div>
+                </div>
+                <hr class="m-0" />
+                <div class="card-body">
+                  <div class="row">
+                    <!-- List group Numbered -->
+                    <div class="col-lg-6 mb-4 mb-xl-0">
+                      <small class="text-light fw-semibold">Numbered</small>
+                      <div class="demo-inline-spacing mt-3">
+                        <ol class="list-group list-group-numbered">
+                          <li class="list-group-item">Bear claw cake biscuit</li>
+                          <li class="list-group-item">Soufflé pastry pie ice</li>
+                          <li class="list-group-item">Tart tiramisu cake</li>
+                          <li class="list-group-item">Bonbon toffee muffin</li>
+                          <li class="list-group-item">Dragée tootsie roll</li>
+                        </ol>
+                      </div>
+                    </div>
+                    <!--/ List group Numbered -->
+                    <!-- List group checkbox -->
+                    <div class="col-lg-6">
+                      <small class="text-light fw-semibold">List Group With Checkbox</small>
+                      <div class="demo-inline-spacing mt-3">
+                        <div class="list-group">
+                          <label class="list-group-item">
+                            <input class="form-check-input me-1" type="checkbox" value="" />
+                            Soufflé pastry pie ice
+                          </label>
+                          <label class="list-group-item">
+                            <input class="form-check-input me-1" type="checkbox" value="" />
+                            Bear claw cake biscuit
+                          </label>
+                          <label class="list-group-item">
+                            <input class="form-check-input me-1" type="checkbox" value="" />
+                            Tart tiramisu cake
+                          </label>
+                          <label class="list-group-item">
+                            <input class="form-check-input me-1" type="checkbox" value="" />
+                            Bonbon toffee muffin
+                          </label>
+                          <label class="list-group-item">
+                            <input class="form-check-input me-1" type="checkbox" value="" />
+                            Dragée tootsie roll
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+                    <!--/ List group checkbox -->
+                  </div>
+                </div>
+                <hr class="m-0" />
+                <div class="card-body">
+                  <div class="row">
+                    <!-- Contextual List group -->
+                    <div class="col-lg-6 mb-4 mb-xl-0">
+                      <small class="text-light fw-semibold">Contextual classes</small>
+                      <div class="demo-inline-spacing mt-3">
+                        <ul class="list-group">
+                          <li class="list-group-item list-group-item-primary">Primary list group item</li>
+                          <li class="list-group-item list-group-item-secondary">Secondary list group item</li>
+                          <li class="list-group-item list-group-item-success">Success list group item</li>
+                          <li class="list-group-item list-group-item-danger">Danger list group item</li>
+                          <li class="list-group-item list-group-item-warning">Warning list group item</li>
+                          <li class="list-group-item list-group-item-info">Info list group item</li>
+                          <li class="list-group-item list-group-item-dark">Dark list group item</li>
+                        </ul>
+                      </div>
+                    </div>
+                    <!--/ Contextual List group -->
+                    <!-- Custom content with heading -->
+                    <div class="col-lg-6">
+                      <small class="text-light fw-semibold">Custom content</small>
+                      <div class="demo-inline-spacing mt-3">
+                        <div class="list-group">
+                          <a
+                            href="javascript:void(0);"
+                            class="list-group-item list-group-item-action flex-column align-items-start active"
+                          >
+                            <div class="d-flex justify-content-between w-100">
+                              <h6>List group item heading</h6>
+                              <small>3 days ago</small>
+                            </div>
+                            <p class="mb-1">
+                              Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius
+                              blandit.
+                            </p>
+                            <small>Donec id elit non mi porta.</small>
+                          </a>
+                          <a
+                            href="javascript:void(0);"
+                            class="list-group-item list-group-item-action flex-column align-items-start"
+                          >
+                            <div class="d-flex justify-content-between w-100">
+                              <h6>List group item heading</h6>
+                              <small class="text-muted">3 days ago</small>
+                            </div>
+                            <p class="mb-1">
+                              Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius
+                              blandit.
+                            </p>
+                            <small class="text-muted">Donec id elit non mi porta.</small>
+                          </a>
+                          <a
+                            href="javascript:void(0);"
+                            class="list-group-item list-group-item-action flex-column align-items-start"
+                          >
+                            <div class="d-flex justify-content-between w-100">
+                              <h6>List group item heading</h6>
+                              <small class="text-muted">3 days ago</small>
+                            </div>
+                            <p class="mb-1">
+                              Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius
+                              blandit.
+                            </p>
+                            <small class="text-muted">Donec id elit non mi porta.</small>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <!--/ Custom content with heading -->
+                  </div>
                 </div>
               </div>
-              <!--/ Layout Demo -->
+
+              <div class="card mb-4">
+                <h5 class="card-header">Javascript behavior</h5>
+                <div class="card-body">
+                  <div class="row">
+                    <!-- Custom content with heading -->
+                    <div class="col-lg-6 mb-4 mb-xl-0">
+                      <small class="text-light fw-semibold">Vertical</small>
+                      <div class="mt-3">
+                        <div class="row">
+                          <div class="col-md-4 col-12 mb-3 mb-md-0">
+                            <div class="list-group">
+                              <a
+                                class="list-group-item list-group-item-action active"
+                                id="list-home-list"
+                                data-bs-toggle="list"
+                                href="#list-home"
+                                >Home</a
+                              >
+                              <a
+                                class="list-group-item list-group-item-action"
+                                id="list-profile-list"
+                                data-bs-toggle="list"
+                                href="#list-profile"
+                                >Profile</a
+                              >
+                              <a
+                                class="list-group-item list-group-item-action"
+                                id="list-messages-list"
+                                data-bs-toggle="list"
+                                href="#list-messages"
+                                >Messages</a
+                              >
+                              <a
+                                class="list-group-item list-group-item-action"
+                                id="list-settings-list"
+                                data-bs-toggle="list"
+                                href="#list-settings"
+                                >Settings</a
+                              >
+                            </div>
+                          </div>
+                          <div class="col-md-8 col-12">
+                            <div class="tab-content p-0">
+                              <div class="tab-pane fade show active" id="list-home">
+                                Donut sugar plum sweet roll biscuit. Cake oat cake gummi bears. Tart wafer wafer halvah
+                                gummi bears cheesecake. Topping croissant cake sweet roll. Dessert fruitcake gingerbread
+                                halvah marshmallow pudding bear claw cheesecake. Bonbon dragée cookie gummies. Pudding
+                                marzipan liquorice. Sugar plum dragée cupcake cupcake cake dessert chocolate bar. Pastry
+                                lollipop lemon drops lollipop halvah croissant. Pastry sweet gingerbread lemon drops
+                                topping ice cream.
+                              </div>
+                              <div class="tab-pane fade" id="list-profile">
+                                Muffin lemon drops chocolate chupa chups jelly beans dessert jelly-o. Soufflé gummies
+                                gummies. Ice cream powder marshmallow cotton candy oat cake wafer. Marshmallow
+                                gingerbread tootsie roll. Chocolate cake bonbon jelly beans lollipop jelly beans halvah
+                                marzipan danish pie. Oat cake chocolate cake pudding bear claw liquorice gingerbread
+                                icing sugar plum brownie. Toffee cookie apple pie cheesecake bear claw sugar plum wafer
+                                gummi bears fruitcake.
+                              </div>
+                              <div class="tab-pane fade" id="list-messages">
+                                Ice cream dessert candy sugar plum croissant cupcake tart pie apple pie. Pastry
+                                chocolate chupa chups tiramisu. Tiramisu cookie oat cake. Pudding brownie bonbon. Pie
+                                carrot cake chocolate macaroon. Halvah jelly jelly beans cake macaroon jelly-o. Danish
+                                pastry dessert gingerbread powder halvah. Muffin bonbon fruitcake dragée sweet sesame
+                                snaps oat cake marshmallow cheesecake. Cupcake donut sweet bonbon cheesecake soufflé
+                                chocolate bar.
+                              </div>
+                              <div class="tab-pane fade" id="list-settings">
+                                Marzipan cake oat cake. Marshmallow pie chocolate. Liquorice oat cake donut halvah
+                                jelly-o. Jelly-o muffin macaroon cake gingerbread candy cupcake. Cake lollipop lollipop
+                                jelly brownie cake topping chocolate. Pie oat cake jelly. Lemon drops halvah jelly
+                                cookie bonbon cake cupcake ice cream. Donut tart bonbon sweet roll soufflé gummies
+                                biscuit. Wafer toffee topping jelly beans icing pie apple pie toffee pudding. Tiramisu
+                                powder macaroon tiramisu cake halvah.
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-6">
+                      <small class="text-light fw-semibold">Horizontal</small>
+                      <div class="demo-inline-spacing mt-3">
+                        <div class="list-group list-group-horizontal-md text-md-center">
+                          <a
+                            class="list-group-item list-group-item-action active"
+                            id="home-list-item"
+                            data-bs-toggle="list"
+                            href="#horizontal-home"
+                            >Home</a
+                          >
+                          <a
+                            class="list-group-item list-group-item-action"
+                            id="profile-list-item"
+                            data-bs-toggle="list"
+                            href="#horizontal-profile"
+                            >Profile</a
+                          >
+                          <a
+                            class="list-group-item list-group-item-action"
+                            id="messages-list-item"
+                            data-bs-toggle="list"
+                            href="#horizontal-messages"
+                            >Messages</a
+                          >
+                          <a
+                            class="list-group-item list-group-item-action"
+                            id="settings-list-item"
+                            data-bs-toggle="list"
+                            href="#horizontal-settings"
+                            >Settings</a
+                          >
+                        </div>
+                        <div class="tab-content px-0 mt-0">
+                          <div class="tab-pane fade show active" id="horizontal-home">
+                            Donut sugar plum sweet roll biscuit. Cake oat cake gummi bears. Tart wafer wafer halvah
+                            gummi bears cheesecake. Topping croissant cake sweet roll. Dessert fruitcake gingerbread
+                            halvah marshmallow pudding bear claw cheesecake. Bonbon dragée cookie gummies. Pudding
+                            marzipan liquorice. Sugar plum dragée cupcake cupcake cake dessert chocolate bar. Pastry
+                            lollipop lemon drops lollipop halvah croissant. Pastry sweet gingerbread lemon drops topping
+                            ice cream.
+                          </div>
+                          <div class="tab-pane fade" id="horizontal-profile">
+                            Muffin lemon drops chocolate chupa chups jelly beans dessert jelly-o. Soufflé gummies
+                            gummies. Ice cream powder marshmallow cotton candy oat cake wafer. Marshmallow gingerbread
+                            tootsie roll. Chocolate cake bonbon jelly beans lollipop jelly beans halvah marzipan danish
+                            pie. Oat cake chocolate cake pudding bear claw liquorice gingerbread icing sugar plum
+                            brownie. Toffee cookie apple pie cheesecake bear claw sugar plum wafer gummi bears
+                            fruitcake.
+                          </div>
+                          <div class="tab-pane fade" id="horizontal-messages">
+                            Ice cream dessert candy sugar plum croissant cupcake tart pie apple pie. Pastry chocolate
+                            chupa chups tiramisu. Tiramisu cookie oat cake. Pudding brownie bonbon. Pie carrot cake
+                            chocolate macaroon. Halvah jelly jelly beans cake macaroon jelly-o. Danish pastry dessert
+                            gingerbread powder halvah. Muffin bonbon fruitcake dragée sweet sesame snaps oat cake
+                            marshmallow cheesecake. Cupcake donut sweet bonbon cheesecake soufflé chocolate bar.
+                          </div>
+                          <div class="tab-pane fade" id="horizontal-settings">
+                            Marzipan cake oat cake. Marshmallow pie chocolate. Liquorice oat cake donut halvah jelly-o.
+                            Jelly-o muffin macaroon cake gingerbread candy cupcake. Cake lollipop lollipop jelly brownie
+                            cake topping chocolate. Pie oat cake jelly. Lemon drops halvah jelly cookie bonbon cake
+                            cupcake ice cream. Donut tart bonbon sweet roll soufflé gummies biscuit. Wafer toffee
+                            topping jelly beans icing pie apple pie toffee pudding. Tiramisu powder macaroon tiramisu
+                            cake halvah.
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!--/ Custom content with heading -->
+                  </div>
+                </div>
+              </div>
             </div>
             <!-- / Content -->
 
             <!-- Footer -->
             <footer class="content-footer footer bg-footer-theme">
-              <div class="container-fluid d-flex flex-wrap justify-content-between py-2 flex-md-row flex-column">
+              <div class="container-xxl d-flex flex-wrap justify-content-between py-2 flex-md-row flex-column">
                 <div class="mb-2 mb-md-0">
                   ©
                   <script>
@@ -633,20 +1009,30 @@
       <div class="layout-overlay layout-menu-toggle"></div>
     </div>
     <!-- / Layout wrapper -->
+
+    <div class="buy-now">
+      <a
+        href="https://themeselection.com/products/sneat-bootstrap-html-admin-template/"
+        target="_blank"
+        class="btn btn-danger btn-buy-now"
+        >Upgrade to Pro</a
+      >
+    </div>
+
     <!-- Core JS -->
     <!-- build:js assets/vendor/js/core.js -->
-    <script src="<?php echo Yii::app()->baseUrl; ?>/dist/assets/vendor/libs/jquery/jquery.js"></script>
-    <script src="<?php echo Yii::app()->baseUrl; ?>/dist/assets/vendor/libs/popper/popper.js"></script>
-    <script src="<?php echo Yii::app()->baseUrl; ?>/dist/assets/vendor/js/bootstrap.js"></script>
-    <script src="<?php echo Yii::app()->baseUrl; ?>/dist/assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.js"></script>
+    <script src="../assets/vendor/libs/jquery/jquery.js"></script>
+    <script src="../assets/vendor/libs/popper/popper.js"></script>
+    <script src="../assets/vendor/js/bootstrap.js"></script>
+    <script src="../assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.js"></script>
 
-    <script src="<?php echo Yii::app()->baseUrl; ?>/dist/assets/vendor/js/menu.js"></script>
+    <script src="../assets/vendor/js/menu.js"></script>
     <!-- endbuild -->
 
     <!-- Vendors JS -->
 
     <!-- Main JS -->
-    <script src="<?php echo Yii::app()->baseUrl; ?>/dist/assets/js/main.js"></script>
+    <script src="../assets/js/main.js"></script>
 
     <!-- Page JS -->
 
