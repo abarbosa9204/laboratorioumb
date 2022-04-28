@@ -8,7 +8,7 @@
 return array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
 	'name'=>'Laboratorio UMB',
-	'defaultController' => 'site/login',
+	'defaultController' => 'site/index',
 	// preloading 'log' component
 	'preload'=>array('log'),
 
