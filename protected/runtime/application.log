@@ -24,3 +24,83 @@ Stack trace:
 REQUEST_URI=/laboratorioumb/index.html
 HTTP_REFERER=http://localhost:8080/laboratorioumb/
 ---
+2022/05/05 22:08:24 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "index.html". in C:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('index.html')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\laboratorioumb\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/laboratorioumb/index.html
+HTTP_REFERER=http://localhost/laboratorioumb/
+---
+2022/05/05 22:16:34 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "layouts-without-menu.html". in C:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('layouts-without...')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\laboratorioumb\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/laboratorioumb/layouts-without-menu.html
+HTTP_REFERER=http://localhost/laboratorioumb/
+---
+2022/05/05 22:16:42 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "index.html". in C:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('index.html')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\laboratorioumb\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/laboratorioumb/index.html
+HTTP_REFERER=http://localhost/laboratorioumb/
+---
+2022/05/05 22:18:53 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "layouts-without-menu.html". in C:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('layouts-without...')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\laboratorioumb\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/laboratorioumb/layouts-without-menu.html
+HTTP_REFERER=http://localhost/laboratorioumb/
+---
+2022/05/05 22:22:11 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "login.php". in C:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('login.php')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\laboratorioumb\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/laboratorioumb/login.php
+---
+2022/05/05 22:22:35 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "layouts-container.html". in C:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('layouts-contain...')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\laboratorioumb\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/laboratorioumb/layouts-container.html
+HTTP_REFERER=http://localhost/laboratorioumb/index.php
+---
+2022/05/05 22:22:38 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "layouts-blank.html". in C:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('layouts-blank.h...')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\laboratorioumb\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/laboratorioumb/layouts-blank.html
+HTTP_REFERER=http://localhost/laboratorioumb/index.php
+---
+2022/05/05 22:22:41 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "layouts-without-menu.html". in C:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('layouts-without...')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\laboratorioumb\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/laboratorioumb/layouts-without-menu.html
+HTTP_REFERER=http://localhost/laboratorioumb/index.php
+---
+2022/05/05 22:22:46 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "layouts-fluid.html". in C:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('layouts-fluid.h...')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\laboratorioumb\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/laboratorioumb/layouts-fluid.html
+HTTP_REFERER=http://localhost/laboratorioumb/index.php
+---
