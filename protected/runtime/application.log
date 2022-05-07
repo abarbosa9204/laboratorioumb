@@ -104,3 +104,318 @@ Stack trace:
 REQUEST_URI=/laboratorioumb/layouts-fluid.html
 HTTP_REFERER=http://localhost/laboratorioumb/index.php
 ---
+2022/05/06 00:21:41 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "pages-account-settings-account.html". in C:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('pages-account-s...')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\laboratorioumb\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/laboratorioumb/pages-account-settings-account.html
+HTTP_REFERER=http://localhost/laboratorioumb/index.php
+---
+2022/05/06 00:23:35 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "index.html". in C:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('index.html')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\laboratorioumb\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/laboratorioumb/index.html
+HTTP_REFERER=http://localhost/laboratorioumb/index.php
+---
+2022/05/06 00:29:51 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "pages-account-settings-account.html". in C:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('pages-account-s...')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\laboratorioumb\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/laboratorioumb/pages-account-settings-account.html
+HTTP_REFERER=http://localhost/laboratorioumb/index.php
+---
+2022/05/06 00:30:10 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "icons-boxicons.html". in C:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('icons-boxicons....')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\laboratorioumb\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/laboratorioumb/icons-boxicons.html
+HTTP_REFERER=http://localhost/laboratorioumb/index.php
+---
+2022/05/06 00:30:16 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "forms-basic-inputs.html". in C:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('forms-basic-inp...')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\laboratorioumb\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/laboratorioumb/forms-basic-inputs.html
+HTTP_REFERER=http://localhost/laboratorioumb/index.php
+---
+2022/05/06 00:30:24 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "form-layouts-horizontal.html". in C:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('form-layouts-ho...')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\laboratorioumb\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/laboratorioumb/form-layouts-horizontal.html
+HTTP_REFERER=http://localhost/laboratorioumb/index.php
+---
+2022/05/07 23:04:58 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/bootstrap/js/bootstrap.bundle.min.js". in C:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/bootstra...')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\laboratorioumb\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/laboratorioumb/vendor/bootstrap/js/bootstrap.bundle.min.js
+HTTP_REFERER=http://localhost/laboratorioumb/
+---
+2022/05/07 23:04:58 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/fontawesome-free/css/all.min.css". in C:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/fontawes...')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\laboratorioumb\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/laboratorioumb/vendor/fontawesome-free/css/all.min.css
+HTTP_REFERER=http://localhost/laboratorioumb/
+---
+2022/05/07 23:04:58 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/jquery/jquery.min.js". in C:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/jquery/j...')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\laboratorioumb\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/laboratorioumb/vendor/jquery/jquery.min.js
+HTTP_REFERER=http://localhost/laboratorioumb/
+---
+2022/05/07 23:04:58 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/sb-admin-2.min.js". in C:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('js/sb-admin-2.m...')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\laboratorioumb\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/laboratorioumb/js/sb-admin-2.min.js
+HTTP_REFERER=http://localhost/laboratorioumb/
+---
+2022/05/07 23:04:58 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/sb-admin-2.min.css". in C:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('css/sb-admin-2....')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\laboratorioumb\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/laboratorioumb/css/sb-admin-2.min.css
+HTTP_REFERER=http://localhost/laboratorioumb/
+---
+2022/05/07 23:04:58 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/jquery-easing/jquery.easing.min.js". in C:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/jquery-e...')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\laboratorioumb\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/laboratorioumb/vendor/jquery-easing/jquery.easing.min.js
+HTTP_REFERER=http://localhost/laboratorioumb/
+---
+2022/05/07 23:04:58 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/demo/chart-area-demo.js". in C:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('js/demo/chart-a...')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\laboratorioumb\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/laboratorioumb/js/demo/chart-area-demo.js
+HTTP_REFERER=http://localhost/laboratorioumb/
+---
+2022/05/07 23:04:58 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "img/undraw_rocket.svg". in C:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('img/undraw_rock...')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\laboratorioumb\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/laboratorioumb/img/undraw_rocket.svg
+HTTP_REFERER=http://localhost/laboratorioumb/
+---
+2022/05/07 23:04:58 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "img/undraw_profile_1.svg". in C:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('img/undraw_prof...')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\laboratorioumb\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/laboratorioumb/img/undraw_profile_1.svg
+HTTP_REFERER=http://localhost/laboratorioumb/
+---
+2022/05/07 23:04:58 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/demo/chart-pie-demo.js". in C:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('js/demo/chart-p...')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\laboratorioumb\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/laboratorioumb/js/demo/chart-pie-demo.js
+HTTP_REFERER=http://localhost/laboratorioumb/
+---
+2022/05/07 23:04:58 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/chart.js/Chart.min.js". in C:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/chart.js...')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\laboratorioumb\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/laboratorioumb/vendor/chart.js/Chart.min.js
+HTTP_REFERER=http://localhost/laboratorioumb/
+---
+2022/05/07 23:04:58 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "img/undraw_profile_2.svg". in C:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('img/undraw_prof...')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\laboratorioumb\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/laboratorioumb/img/undraw_profile_2.svg
+HTTP_REFERER=http://localhost/laboratorioumb/
+---
+2022/05/07 23:04:58 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "img/undraw_profile_3.svg". in C:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('img/undraw_prof...')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\laboratorioumb\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/laboratorioumb/img/undraw_profile_3.svg
+HTTP_REFERER=http://localhost/laboratorioumb/
+---
+2022/05/07 23:04:58 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "img/undraw_profile.svg". in C:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('img/undraw_prof...')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\laboratorioumb\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/laboratorioumb/img/undraw_profile.svg
+HTTP_REFERER=http://localhost/laboratorioumb/
+---
+2022/05/07 23:04:58 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "img/undraw_posting_photo.svg". in C:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('img/undraw_post...')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\laboratorioumb\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/laboratorioumb/img/undraw_posting_photo.svg
+HTTP_REFERER=http://localhost/laboratorioumb/
+---
+2022/05/07 23:06:52 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/jquery/jquery.min.js". in C:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/jquery/j...')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\laboratorioumb\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/laboratorioumb/vendor/jquery/jquery.min.js
+HTTP_REFERER=http://localhost/laboratorioumb/
+---
+2022/05/07 23:06:52 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/bootstrap/js/bootstrap.bundle.min.js". in C:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/bootstra...')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\laboratorioumb\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/laboratorioumb/vendor/bootstrap/js/bootstrap.bundle.min.js
+HTTP_REFERER=http://localhost/laboratorioumb/
+---
+2022/05/07 23:06:52 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/sb-admin-2.min.js". in C:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('js/sb-admin-2.m...')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\laboratorioumb\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/laboratorioumb/js/sb-admin-2.min.js
+HTTP_REFERER=http://localhost/laboratorioumb/
+---
+2022/05/07 23:06:52 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/demo/chart-area-demo.js". in C:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('js/demo/chart-a...')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\laboratorioumb\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/laboratorioumb/js/demo/chart-area-demo.js
+HTTP_REFERER=http://localhost/laboratorioumb/
+---
+2022/05/07 23:06:52 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/chart.js/Chart.min.js". in C:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/chart.js...')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\laboratorioumb\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/laboratorioumb/vendor/chart.js/Chart.min.js
+HTTP_REFERER=http://localhost/laboratorioumb/
+---
+2022/05/07 23:06:52 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/demo/chart-pie-demo.js". in C:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('js/demo/chart-p...')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\laboratorioumb\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/laboratorioumb/js/demo/chart-pie-demo.js
+HTTP_REFERER=http://localhost/laboratorioumb/
+---
+2022/05/07 23:06:52 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "vendor/jquery-easing/jquery.easing.min.js". in C:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('vendor/jquery-e...')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\laboratorioumb\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/laboratorioumb/vendor/jquery-easing/jquery.easing.min.js
+HTTP_REFERER=http://localhost/laboratorioumb/
+---
+2022/05/07 23:06:52 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "img/undraw_profile_1.svg". in C:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('img/undraw_prof...')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\laboratorioumb\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/laboratorioumb/img/undraw_profile_1.svg
+HTTP_REFERER=http://localhost/laboratorioumb/
+---
+2022/05/07 23:06:52 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "img/undraw_profile_2.svg". in C:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('img/undraw_prof...')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\laboratorioumb\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/laboratorioumb/img/undraw_profile_2.svg
+HTTP_REFERER=http://localhost/laboratorioumb/
+---
+2022/05/07 23:06:52 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "img/undraw_profile_3.svg". in C:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('img/undraw_prof...')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\laboratorioumb\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/laboratorioumb/img/undraw_profile_3.svg
+HTTP_REFERER=http://localhost/laboratorioumb/
+---
+2022/05/07 23:06:52 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "img/undraw_profile.svg". in C:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('img/undraw_prof...')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\laboratorioumb\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/laboratorioumb/img/undraw_profile.svg
+HTTP_REFERER=http://localhost/laboratorioumb/
+---
+2022/05/07 23:06:52 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "img/undraw_posting_photo.svg". in C:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('img/undraw_post...')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\laboratorioumb\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/laboratorioumb/img/undraw_posting_photo.svg
+HTTP_REFERER=http://localhost/laboratorioumb/
+---
+2022/05/07 23:07:01 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "index.html". in C:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('index.html')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\laboratorioumb\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/laboratorioumb/index.html
+HTTP_REFERER=http://localhost/laboratorioumb/
+---
+2022/05/07 23:07:06 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "index.html". in C:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('index.html')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\laboratorioumb\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/laboratorioumb/index.html
+HTTP_REFERER=http://localhost/laboratorioumb/
+---
