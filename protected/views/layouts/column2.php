@@ -19,4 +19,4 @@
 	?>
 	</div><!-- sidebar -->
 </div>
-<?php $this->endContent(); ?>
+<?php $this->endContent(); ?>						

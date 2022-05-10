@@ -445,3 +445,39 @@ Stack trace:
 REQUEST_URI=/laboratorioumb/layouts-container.html
 HTTP_REFERER=http://localhost/laboratorioumb/
 ---
+2022/05/08 20:31:16 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "layouts-without-menu.html". in C:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('layouts-without...')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\laboratorioumb\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/laboratorioumb/layouts-without-menu.html
+HTTP_REFERER=http://localhost/laboratorioumb/
+---
+2022/05/09 17:47:51 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "layouts-without-menu.html". in C:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('layouts-without...')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\laboratorioumb\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/laboratorioumb/layouts-without-menu.html
+HTTP_REFERER=http://localhost/laboratorioumb/
+---
+2022/05/09 18:11:53 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "layouts-without-menu.html". in C:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('layouts-without...')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\laboratorioumb\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/laboratorioumb/layouts-without-menu.html
+HTTP_REFERER=http://localhost/laboratorioumb/
+---
+2022/05/09 18:12:32 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "pages-account-settings-account.html". in C:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('pages-account-s...')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\laboratorioumb\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/laboratorioumb/pages-account-settings-account.html
+HTTP_REFERER=http://localhost/laboratorioumb/
+---
