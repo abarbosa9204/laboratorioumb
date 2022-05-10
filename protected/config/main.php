@@ -52,7 +52,15 @@ return array(
 		),
 
 		// database settings are configured in database.php
-		'db'=>require(dirname(__FILE__).'/database.php'),
+		//'db'=>require(dirname(__FILE__).'/database.php'),
+		'db' => array(
+			'class' => 'CDbConnection',
+			'connectionString' => 'mysql:host=localhost;dbname=umb',
+			'username' => 'root',
+			'password' => '',
+			'charset' => 'utf8',
+			'emulatePrepare' => true, // needed by some MySQL installations
+		),
 
 		'errorHandler'=>array(
 			// use 'site/error' action to display errors
