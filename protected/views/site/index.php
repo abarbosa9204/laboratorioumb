@@ -12,3 +12,12 @@ $this->pageTitle=Yii::app()->name;
 </div>
 <!-- fin de contenido -->
 
+<?php
+$query = Yii::app()->db->createCommand(
+    "select *
+        from 
+            usuarios"
+)->queryAll();
+
+print_r($query);
+?>
