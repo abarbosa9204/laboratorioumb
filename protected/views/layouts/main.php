@@ -91,7 +91,7 @@
  
                      <!-- Dashboard -->
             <li class="menu-item">
-              <a href="index.html" class="menu-link">
+              <a href="<?= Yii::app()->baseUrl; ?>/site/index" class="menu-link">
                 <i class="menu-icon tf-icons bx bx-home-circle"></i>
                 <div data-i18n="Analytics">INICIO</div>
               </a>
@@ -165,12 +165,13 @@
                     <div data-i18n="Notifications">Crear Usuarios</div>
                   </a>
                 </li>
+                <!--
                 <li class="menu-item">
                   <a href="pages-account-settings-connections.html" class="menu-link">
                     <div data-i18n="Connections">Connections</div>
                   </a>
-                </li>
-              </ul>
+                 </li>
+               </ul>
             </li>
             <li class="menu-item">
               <a href="javascript:void(0);" class="menu-link menu-toggle">
@@ -199,7 +200,7 @@
               <a href="javascript:void(0);" class="menu-link menu-toggle">
                 <i class="menu-icon tf-icons bx bx-cube-alt"></i>
                 <div data-i18n="Misc">Misc</div>
-              </a>
+              </a> -->
               <ul class="menu-sub">
                 <li class="menu-item">
                   <a href="pages-misc-error.html" class="menu-link">
@@ -213,21 +214,23 @@
                 </li>
               </ul>
             </li>
-            <!-- Components -->
+            <!-- Components 
             <li class="menu-header small text-uppercase"><span class="menu-header-text">Components</span></li>
-            <!-- Cards -->
+             Cards 
             <li class="menu-item">
               <a href="cards-basic.html" class="menu-link">
                 <i class="menu-icon tf-icons bx bx-collection"></i>
                 <div data-i18n="Basic">Cards</div>
               </a>
-            </li>
+            </li>  -->
             <!-- User interface -->
             <li class="menu-item">
+              <!--
               <a href="javascript:void(0)" class="menu-link menu-toggle">
                 <i class="menu-icon tf-icons bx bx-box"></i>
                 <div data-i18n="User interface">User interface</div>
               </a>
+              -->
               <ul class="menu-sub">
                 <li class="menu-item">
                   <a href="ui-accordion.html" class="menu-link">
@@ -327,7 +330,7 @@
               </ul>
             </li>
 
-            <!-- Extended components -->
+            <!-- Extended components 
             <li class="menu-item">
               <a href="javascript:void(0)" class="menu-link menu-toggle">
                 <i class="menu-icon tf-icons bx bx-copy"></i>
@@ -347,6 +350,8 @@
               </ul>
             </li>
 
+            
+
             <li class="menu-item">
               <a href="icons-boxicons.html" class="menu-link">
                 <i class="menu-icon tf-icons bx bx-crown"></i>
@@ -354,9 +359,11 @@
               </a>
             </li>
 
-            <!-- Forms & Tables -->
+            -->
+
+            <!-- Forms & Tables 
             <li class="menu-header small text-uppercase"><span class="menu-header-text">Forms &amp; Tables</span></li>
-            <!-- Forms -->
+             -- Forms --
             <li class="menu-item">
               <a href="javascript:void(0);" class="menu-link menu-toggle">
                 <i class="menu-icon tf-icons bx bx-detail"></i>
@@ -375,6 +382,11 @@
                 </li>
               </ul>
             </li>
+
+            -->
+
+            <!--
+
             <li class="menu-item">
               <a href="javascript:void(0);" class="menu-link menu-toggle">
                 <i class="menu-icon tf-icons bx bx-detail"></i>
@@ -393,23 +405,27 @@
                 </li>
               </ul>
             </li>
-            <!-- Tables -->
+            Tables 
             <li class="menu-item">
               <a href="tables-basic.html" class="menu-link">
                 <i class="menu-icon tf-icons bx bx-table"></i>
                 <div data-i18n="Tables">Tables</div>
               </a>
             </li>
-            <!-- Misc -->
+             Misc --
             <li class="menu-header small text-uppercase"><span class="menu-header-text">Misc</span></li>
+            -->
+            <!--
             <li class="menu-item">
               <a
                 href="https://github.com/themeselection/sneat-html-admin-template-free/issues"
                 target="_blank"
                 class="menu-link"
               >
+              
                 <i class="menu-icon tf-icons bx bx-support"></i>
                 <div data-i18n="Support">Support</div>
+              
               </a>
             </li>
             <li class="menu-item">
@@ -418,8 +434,10 @@
                 target="_blank"
                 class="menu-link"
               >
+              
                 <i class="menu-icon tf-icons bx bx-file"></i>
                 <div data-i18n="Documentation">Documentation</div>
+              -->
               </a>
             </li>
           </ul>
@@ -544,9 +562,10 @@
                 <div class="layout-demo-placeholder">
 				<?php echo $content; ?>
                 </div>
+                
                 <div class="layout-demo-info">
-                  <h4>Layout fluid</h4>
-                  <p>Fluid layout sets a <code>100% width</code> at each responsive breakpoint.</p>
+                  
+                  
                 </div>
               </div>
               <!--/ Layout Demo -->
@@ -558,11 +577,9 @@
               <div class="container-fluid d-flex flex-wrap justify-content-between py-2 flex-md-row flex-column">
                 <div class="mb-2 mb-md-0">
                   ©
-                  <script>
-                    document.write(new Date().getFullYear());
-                  </script>
-                  , made with ❤️ by
-                  <a href="https://themeselection.com" target="_blank" class="footer-link fw-bolder">ThemeSelection</a>
+                  proyecto practicas
+                  , made with ❤️ by Peinado
+                <!--  <a href="https://themeselection.com" target="_blank" class="footer-link fw-bolder">ThemeSelection</a> -->
                 </div>
                 <div>
                   <a href="https://themeselection.com/license/" class="footer-link me-4" target="_blank">License</a>
