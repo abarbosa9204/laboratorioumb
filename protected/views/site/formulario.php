@@ -27,3 +27,5 @@ $this->pageTitle = Yii::app()->name . ' - Crear Laboratorio';
   </div>
 </form>
 <!-- fin de contenido -->
+<script>
+</script>
