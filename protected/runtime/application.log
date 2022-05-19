@@ -2003,3 +2003,25 @@ Stack trace:
 REQUEST_URI=/laboratorioumb/index.html
 HTTP_REFERER=http://localhost/laboratorioumb/
 ---
+2022/05/19 03:58:27 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "index.html". in C:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('index.html')
+#1 C:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('index.html')
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('site/index.html')
+#3 C:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\laboratorioumb\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/laboratorioumb/site/index.html
+HTTP_REFERER=http://localhost/laboratorioumb/site/formLaboratory
+---
+2022/05/19 03:58:41 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "index.html". in C:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('index.html')
+#1 C:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('index.html')
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('site/index.html')
+#3 C:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\laboratorioumb\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/laboratorioumb/site/index.html
+HTTP_REFERER=http://localhost/laboratorioumb/site/index
+---
