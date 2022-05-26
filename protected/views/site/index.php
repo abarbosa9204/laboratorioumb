@@ -4,17 +4,40 @@
 $this->pageTitle=Yii::app()->name;
 ?>
 
-<h1>Welcome to <i><?php echo CHtml::encode(Yii::app()->name); ?></i></h1>
 
-<p>Congratulations! You have successfully created your Yii application.</p>
+<!-- inicio del contenido -->
+<div class ="container">
+	<h1>Tus labortorios</h1>
+	
+</div>
+<!-- fin de contenido -->
 
-<p>You may change the content of this page by modifying the following two files:</p>
-<ul>
-	<li>View file: <code><?php echo __FILE__; ?></code></li>
-	<li>Layout file: <code><?php echo $this->getLayoutFile('main'); ?></code></li>
-</ul>
+<?php
+$query = Yii::app()->db->createCommand(
+    "select *
+        from 
+            usuarios"
+)->queryAll();
 
-<p>For more details on how to further develop this application, please read
-the <a href="http://www.yiiframework.com/doc/">documentation</a>.
-Feel free to ask in the <a href="http://www.yiiframework.com/forum/">forum</a>,
-should you have any questions.</p>
+// print_r($query);
+?> 
+
+
+<div class="row">
+    <?php 
+    $lab = Laboratorio::model()->findAll();
+    foreach ($lab as $key => $value) { ?>
+        
+        <div class="col-sm-6">
+        <div class="card-body">
+            <div class="card">
+                <div class="card-body">
+                <h5 class="card-title"><?= $value->laboratorio, $value->IDlaboratorio; ?></h5>
+        <a href= "<?= Yii::app()->createUrl('/site/formulario', ['idForm' => Encrypt::encryption($value->IDlaboratorio)]); ?> " class="btn btn-primary">ingresar</a>
+      </div>
+    </div>
+  </div>
+  </div>
+  <?php }  ?>
+
+</div>

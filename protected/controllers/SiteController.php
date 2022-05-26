@@ -31,6 +31,46 @@ class SiteController extends Controller
 		// using the default layout 'protected/views/layouts/main.php'
 		$this->render('index');
 	}
+	/**
+	  *@arguments render view create Laboratory
+	 */
+	public function actionFormLaboratory()
+	{
+		$this->render('formLaboratory');
+	}
+
+	public function actionFormulario()
+	{
+		echo Encrypt::decryption($_GET['idForm']);
+		$this->render('formulario');
+	}
+	
+	public function actionUsuarios()
+	{
+		$this->render('usuarios');
+	}
+
+
+
+		/**
+	  *@arguments render view create Laboratory
+	 */
+	public function actionCreateLaboratory()
+	{
+		// if(isset($_POST)){
+		// 	$laboratorio = new Laboratorio();
+		// 	$rs = $laboratorio->createLaboratory(
+		// 		$_POST['idForm'],
+		// 		$_POST['dataForm']
+		// 	);
+		// }else{
+		// 	$rs = [
+		// 		'status'	=>	'error',
+		// 		'msg'		=>	'La solicitud no fue procesada, por favor validar la información ingresada'
+		// 	];
+		// }
+		// echo json_encode($rs);	
+	}
 
 	/**
 	 * This is the action to handle external exceptions.
